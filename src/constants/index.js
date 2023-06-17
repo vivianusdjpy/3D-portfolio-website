@@ -15,16 +15,16 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    cm_logo,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    threejs, 
+    sap,
+    Infosight,
   } from "../assets";
   
+
   export const navLinks = [
     {
       id: "about",
@@ -50,11 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "Data Analyst",
       icon: creator,
     },
   ];
@@ -89,14 +85,6 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -108,71 +96,74 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Location Strategist (Data Analysis)",
+      company_name: "SAP SE, Germany",
+      icon: sap,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Oct 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducting research on factors that influence location decisions such as market trends", 
+        "Investigating tax policies, labor availability and assessing geo-political factors",
+        "Analyzing data using Excel, identify patterns and trends, drawing insights that inform location decisions ",
+        "Providing recommendations for new locations and developing strategies for managing existing locations",
+        "Natural language processing, text clustering and sentiment analysis for customer tickets",
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Data Analyst (retail)",
+      company_name: "Classic Holdings, KE",
+      icon: cm_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Basket analysis: checking items that are most likely to be bought together and coming up with offers and promotions based on the analysis.",
+        "Association analysis: Identifying items that are likely to be bought once one another product has been bought.",
+        "Anomaly detection: Purchase spikes, theft.",
+        "Predictive analytics: Using sales data to predict and optimize stocking levels."
+        
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Robotic Process Automation (RPA) Developer",
+      company_name: "Infosight Technologies, KE",
+      icon: Infosight,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2020 - Dec 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analyzing business processes – Identifying mundane tasks that could be automated like creating Purchase Orders.",
+        "Designing and developing automation workflows such as pre-scheduling emails",
+        "Testing and debugging automation workflows",
+        "Documentation and training on how to leverage Automation Anywhere",
+        "OCR and Image recognition for a document verification system",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "General Manager",
+      company_name: "Classic Holdings, KE",
+      icon: cm_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2018 - Sep 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Assisted with customer inquiries, resolved complaints, and maintained a high level of customer satisfaction.",
+        "Conducted training sessions, provided guidance and feedback, and promoted a positive work environment.",            
+        "Assisted in managing inventory levels, monitoring stock availability, and conducting regular stock checks.",             
+        "Actively engaged in achieving sales targets and promoting sales growth.",
+        "Assisted in implementing sales strategies and initiatives, identified opportunities for improvement.",       
+        "Helped to implement loss prevention measures, including monitoring cash handling procedures and minimizing shrinkage.",        
+        "Supported the Store Manager with payroll processing, staff evaluations, and other administrative duties as required.",
       ],
     },
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -216,7 +207,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/vivianusdjpy/books.",
     },
     {
       name: "Job IT",
@@ -237,7 +228,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/vivianusdjpy/threejs",
     },
     {
       name: "Trip Guide",
