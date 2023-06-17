@@ -29,9 +29,11 @@ import Infosight from "./company/Infosight.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import logo2 from "./logo.png";
 
 export {
   logo,
+  logo2,
   backend,
   creator,
   mobile,
