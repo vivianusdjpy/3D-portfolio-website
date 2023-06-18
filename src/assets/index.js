@@ -22,14 +22,14 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import cm_logo from "./company/cm_logo.png";
-import shopify from "./company/shopify.png";
+import logo2 from "./logo.png";
 import sap from "./company/sap.png";
 import Infosight from "./company/Infosight.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import logo2 from "./logo.png";
+import mysite from "./mysite.png";
+
 
 export {
   logo,
@@ -55,10 +55,9 @@ export {
   typescript,
   threejs,
   cm_logo,
-  shopify,
   carrent,
   jobit,
-  tripguide,
+  mysite,
   sap,
   Infosight,
 };
