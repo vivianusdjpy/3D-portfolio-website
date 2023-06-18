@@ -28,9 +28,6 @@ JavaScript Tutorial
 License
 This project is licensed under the MIT License.
 
-Acknowledgments
-This project was inspired by various website portfolio templates and showcases available online.
-
 Contact
 If you have any questions or suggestions, feel free to reach out:
 
