@@ -2,9 +2,7 @@
 This is a website portfolio project built with React and Three.js. It serves as a showcase my your work and skills in a visually engaging manner.
 
 
-
-https://github.com/vivianusdjpy/3D-portfolio-website/assets/56575615/c3e86f4c-8334-4a74-bb76-6d9b63cd3daa
-
+https://github.com/vivianusdjpy/3D-portfolio-website/assets/56575615/6a153aca-043a-45d7-b6e0-7630bed01fab
 
 
 ### Features
