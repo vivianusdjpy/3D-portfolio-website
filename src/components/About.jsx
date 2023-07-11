@@ -47,11 +47,20 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a Junior software developer with experience in JavaScript,
-        and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a dedicated and passionate junior developer with a strong focus on data analytics,
+        software development, and cloud computing. Through this platform, I aim to showcase my skills and 
+        experiences in these areas while providing valuable insights into my professional journey.<br/>
+
+        With a solid foundation in data analytics, I possess the ability to analyze and derive meaningful insights from
+        complex datasets. From data visualization to statistical analysis, 
+        I strive to uncover patterns and trends that drive informed decision-making. <br/>
+
+        As a software developer, I possess a strong command of various programming languages and frameworks. 
+        From front-end development using HTML, CSS, and JavaScript to back-end programming with Python and Node.js. <br/>
+
+        Moreover, my proficiency in cloud computing enables me to architect and deploy scalable and resilient 
+        applications on platforms such as AWS, Azure, and Google Cloud.
+        I have hands-on experience with cloud services like EC2, S3, Lambda, and more.<br/>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

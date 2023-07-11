@@ -29,6 +29,7 @@ import Infosight from "./company/Infosight.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import mysite from "./mysite.png";
+import Dashboard from "./Dashboard-Vivian.png"
 
 
 export {
@@ -60,4 +61,5 @@ export {
   mysite,
   sap,
   Infosight,
+  Dashboard
 };
