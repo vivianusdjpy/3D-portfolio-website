@@ -21,7 +21,9 @@ import {
     threejs, 
     sap,
     mysite,
-    Dashboard,
+    reactDashboard,
+    TableauDashboard,
+    confusionMatrix,
   } from "../assets";
   
 
@@ -46,13 +48,13 @@ import {
       icon: web,
     },
     {
-      title: "Cloud Practitioner",
-      icon: mobile,
-    },
-    {
       title: "Data Analyst",
       icon: creator,
     },
+    {
+      title: "Cloud Practitioner",
+      icon: mobile,
+    },    
   ];
   
   const technologies = [
@@ -181,30 +183,9 @@ import {
   
   const projects = [
     {
-      name: "Personal Website",
-      description:
-        "I built myself a website to showcase my skills and experiences using Html, css, React amazing graphics library Three js.",
-      tags: [
-        {
-          name: "three js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "html",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: mysite,
-      source_code_link: "https://github.com/vivianusdjpy/3D-portfolio-website",
-    },
-    {
       name: "Admin Dashboard UI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based React.js portfolio dashboard that offers a sleek and responsive interface to manage your orders, customers and distribution.",
       tags: [
         {
           name: "react",
@@ -219,30 +200,39 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: Dashboard,
-      source_code_link: "https://github.com/vivianusdjpy/admin-dashboard/tree/main.",
+      image: reactDashboard,
+      source_code_link: "https://github.com/vivianusdjpy/admin-dashboard",
     },
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/vivianusdjpy/threejs",
-    // },
+    {
+      name: "Tableau Project",
+      description:
+        "The Tableau dashboard displays crop yield analysis and a color-coded map depicting agricultural productivity in a Uganda.",
+      tags: [
+        {
+          name: "Tableau",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: TableauDashboard,
+      source_code_link: "https://public.tableau.com/views/UGANDAKARAMOJASUB-COUNTYINDEPENDENTPROJECTWEEKONE/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link",
+    },
+    {
+      name: "Game Prediction ML",
+      description:
+        "Game prediction project utilizing Polynomial and Logistic regression algorithms to forecast outcomes.",
+      tags: [
+        {
+          name: "Jupyter Notebook",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: confusionMatrix,
+      source_code_link: "https://github.com/vivianusdjpy/SUPERVISED-LEARNING-WITH-EDA",
+    },
   ];
   
   export { services, technologies, projects };

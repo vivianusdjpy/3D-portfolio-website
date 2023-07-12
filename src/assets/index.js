@@ -29,7 +29,9 @@ import Infosight from "./company/Infosight.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import mysite from "./mysite.png";
-import Dashboard from "./Dashboard-Vivian.png"
+import reactDashboard from "./Dashboard-Vivian.png"
+import TableauDashboard from "./TableauUgandaDashboard.png";
+import confusionMatrix from './Gameprediction.png'
 
 
 export {
@@ -61,5 +63,7 @@ export {
   mysite,
   sap,
   Infosight,
-  Dashboard
+  reactDashboard,
+  TableauDashboard,
+  confusionMatrix,
 };

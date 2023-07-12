@@ -59,7 +59,7 @@ const About = () => {
         From front-end development using HTML, CSS, and JavaScript to back-end programming with Python and Node.js. <br/>
 
         Moreover, my proficiency in cloud computing enables me to architect and deploy scalable and resilient 
-        applications on platforms such as AWS, Azure, and Google Cloud.
+        applications.
         I have hands-on experience with cloud services like EC2, S3, Lambda, and more.<br/>
       </motion.p>
 
