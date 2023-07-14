@@ -1,5 +1,5 @@
 ## Website Portfolio Project
-This is a website portfolio project built with React and Three.js. It serves as a showcase my your work and skills in a visually engaging manner.
+    This is a website portfolio project built with React and Three.js. It serves as a showcase my your work and skills in a visually engaging manner.
 
 https://github.com/vivianusdjpy/3D-portfolio-website/assets/56575615/cd475fc9-a5d4-42a2-a9e7-5b40806f4563
 ### Features
