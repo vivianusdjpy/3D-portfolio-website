@@ -37,10 +37,10 @@ const Contact = () => {
         'template_squibha',
 
         {
-          
-          to_name: "Vivian Njau",
-          
+          to_name: "Vivian Njau",          
           to_email: "viviannjau3985@gmail.com",
+          name: form.name,
+          email: form.email,
           message: form.message,
         },
         'sFmcmPOZIcnAcQkX9'
