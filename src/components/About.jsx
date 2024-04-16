@@ -47,20 +47,23 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a dedicated and passionate junior developer with a strong focus on data analytics,
-        software development, and cloud computing. Through this platform, I aim to showcase my skills and 
-        experiences in these areas while providing valuable insights into my professional journey.<br/>
+        Welcome to my portfolio! 
+        I'm thrilled to share my journey as a dedicated and passionate junior developer specializing in software development, and cloud computing. 
+        Within these realms, I've honed my skills to not only analyze complex datasets but also derive invaluable insights crucial for informed decision-making.
 
-        With a solid foundation in data analytics, I possess the ability to analyze and derive meaningful insights from
-        complex datasets. From data visualization to statistical analysis, 
-        I strive to uncover patterns and trends that drive informed decision-making. <br/>
+        In software development, my expertise spans across various programming languages and frameworks. 
+        Whether it's crafting captivating front-end experiences using HTML, CSS, and JavaScript or diving into the depths of back-end programming with Python and Node.js, I bring a meticulous approach to every project I undertake.
 
-        As a software developer, I possess a strong command of various programming languages and frameworks. 
-        From front-end development using HTML, CSS, and JavaScript to back-end programming with Python and Node.js. <br/>
+        Moreover, my proficiency in cloud computing allows me to architect and deploy applications 
+        that are not only scalable but also resilient in the face of dynamic demands. 
+        With hands-on experience in leveraging cloud services such as EC2, S3, Lambda, and more, 
+        I'm equipped to tackle the challenges of modern application development head-on.
 
-        Moreover, my proficiency in cloud computing enables me to architect and deploy scalable and resilient 
-        applications.
-        I have hands-on experience with cloud services like EC2, S3, Lambda, and more.<br/>
+        Through this platform, I aim to showcase not just my skills and experiences, 
+        but also to provide valuable insights into my professional journey. 
+        Join me as I navigate through the ever-evolving landscape of technology, 
+        continuously striving for excellence in every endeavor.
+        <br/>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
