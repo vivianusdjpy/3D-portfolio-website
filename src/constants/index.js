@@ -14,6 +14,7 @@ import {
     goGameImage,
     caregiver,
     mawawaProperties,
+    ImageGen,
   } from "../assets";
   
 
@@ -253,7 +254,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: confusionMatrix,
+      image: ImageGen,
       source_code_link: "https://github.com/vivianusdjpy/dallee2",
     },
     {

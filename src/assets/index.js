@@ -35,6 +35,7 @@ import goGameImage from "./goGameImage.png"
 import confusionMatrix from './Gameprediction.png'
 import caregiver from './caregiver.jpeg'
 import mawawaProperties from './mawawaProperties.jpeg'
+import ImageGen from './ImageGen.jpeg'
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   confusionMatrix,
   caregiver,
   mawawaProperties,
+  ImageGen,
 };
