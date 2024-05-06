@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-2 px-4 min-h-[220px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -43,28 +43,34 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        Welcome to my portfolio! 
-        I'm thrilled to share my journey as a dedicated and passionate junior developer specializing in software development, and cloud computing. 
-        Within these realms, I've honed my skills to not only analyze complex datasets but also derive invaluable insights crucial for informed decision-making.
-
-        In software development, my expertise spans across various programming languages and frameworks. 
-        Whether it's crafting captivating front-end experiences using HTML, CSS, and JavaScript or diving into the depths of back-end programming with Python and Node.js, I bring a meticulous approach to every project I undertake.
-
-        Moreover, my proficiency in cloud computing allows me to architect and deploy applications 
-        that are not only scalable but also resilient in the face of dynamic demands. 
-        With hands-on experience in leveraging cloud services such as EC2, S3, Lambda, and more, 
-        I'm equipped to tackle the challenges of modern application development head-on.
-
-        Through this platform, I aim to showcase not just my skills and experiences, 
-        but also to provide valuable insights into my professional journey. 
-        Join me as I navigate through the ever-evolving landscape of technology, 
-        continuously striving for excellence in every endeavor.
-        <br/>
-      </motion.p>
+     <motion.div
+  variants={fadeIn("", "", 0.1, 1)}
+  className='mt-4 text-secondary text-[18px] max-w-6xl leading-[40px] flex flex-wrap'
+>
+  <div className='w-1/2 pr-4'>
+    <p>
+      I am a passionate software developer with a love for crafting clean, 
+      efficient code and building innovative digital solutions.    
+      <br/>
+      My journey in software development has been driven by a curiosity to explore emerging 
+      technologies and a dedication to delivering impactful solutions that meet user needs.
+      <br/>
+      Throughout my career, I've had the opportunity to work on a diverse range of projects, developing 
+      scalable web applications, creating intuitive user interfaces and optimizing backend systems. 
+    </p>
+  </div>
+  <div className='w-1/2 pl-4'>
+    <p>
+      Each project has honed my technical skills and deepened my understanding of the 
+      importance of collaboration, problem-solving, and continuous learning in the fast-paced world 
+      of software development.
+      <br/>
+      In addition to my technical expertise, I'm committed to fostering a culture of inclusivity, 
+      diversity, and lifelong learning within the tech community.     <br/>
+      I invite you to connect and share my passion for software development.  <br/>
+    </p>
+  </div>
+</motion.div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

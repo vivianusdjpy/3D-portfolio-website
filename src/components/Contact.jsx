@@ -33,7 +33,7 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_vp7krko',
+        'service_4lst2by',
         'template_squibha',
 
         {
@@ -43,12 +43,12 @@ const Contact = () => {
           email: form.email,
           message: form.message,
         },
-        'sFmcmPOZIcnAcQkX9'
+        'ktjD1eX_-moCj4vTt'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Email sent. Thankyou! ");
 
           setForm({
             name: "",

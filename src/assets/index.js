@@ -31,8 +31,10 @@ import jobit from "./jobit.png";
 import mysite from "./mysite.png";
 import reactDashboard from "./Dashboard-Vivian.png"
 import TableauDashboard from "./TableauUgandaDashboard.png";
+import goGameImage from "./goGameImage.png"
 import confusionMatrix from './Gameprediction.png'
-
+import caregiver from './caregiver.jpeg'
+import mawawaProperties from './mawawaProperties.jpeg'
 
 export {
   logo,
@@ -65,5 +67,8 @@ export {
   Infosight,
   reactDashboard,
   TableauDashboard,
+  goGameImage,
   confusionMatrix,
+  caregiver,
+  mawawaProperties,
 };

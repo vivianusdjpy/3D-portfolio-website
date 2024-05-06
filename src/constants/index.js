@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
@@ -10,12 +6,14 @@ import {
     reactjs,
     redux,
     tailwind,
-    git,
     figma,
     threejs, 
     reactDashboard,
     TableauDashboard,
     confusionMatrix,
+    goGameImage,
+    caregiver,
+    mawawaProperties,
   } from "../assets";
   
 
@@ -25,8 +23,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "works",
+      title: "Works",
     },
     {
       id: "contact",
@@ -36,48 +34,41 @@ import {
   
   const services = [
     {
-      title: "Software Developer",
-      icon: web,
-    },
-    {
-      title: "Data Analyst",
-      icon: creator,
-    },
-    {
-      title: "Cloud Practitioner",
-      icon: mobile,
-    },    
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
+      title: "HTML",
       icon: html,
     },
-    {
-      name: "CSS 3",
+     {
+      title: "CSS",
       icon: css,
     },
     {
-      name: "JavaScript",
+      title: "Javascript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      title: "Typescript",
       icon: typescript,
-    },
+    },    
     {
-      name: "React JS",
+      title: "React JS",
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
+      title: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Three JS",
+      title: "Three JS",
       icon: threejs,
+    }, 
+    {
+      title: "redux",
+      icon: redux,
     },
+  ];
+  
+  const technologies = [
+  
     {
       name: "figma",
       icon: figma,
@@ -173,22 +164,22 @@ import {
   //   },
   // ];
   
-  const projects = [
+  const experiences = [
     {
-      name: "Admin Dashboard UI",
+      name: "Admin Dashboard",
       description:
-        "Web-based React.js portfolio dashboard that offers a sleek and responsive interface to manage your orders, customers and distribution.",
+        "An Admin dashboard that offers a quick overview of key performance metrics",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Javascript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
@@ -196,17 +187,74 @@ import {
       source_code_link: "https://github.com/vivianusdjpy/admin-dashboard",
     },
     {
-      name: "Tableau Project",
+      name: "Go Game Social",
       description:
-        "The Tableau dashboard displays crop yield analysis and a color-coded map depicting agricultural productivity in a Uganda.",
+        "Web-based React.js app that offers a sleek and responsive interface to play the game of go Online with video chat that.",
       tags: [
         {
-          name: "Tableau",
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Web RTC",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: goGameImage,
+      source_code_link: "https://github.com/vivianusdjpy/online_go",
+    },
+      {name: "Caregiver App",
+      description:
+        "The Caregiver app is a platform to link patients who need personalized care with professionals",
+      tags: [
+        {
+          name: "NextJS",
           color: "blue-text-gradient",
         },
       ],
-      image: TableauDashboard,
-      source_code_link: "https://public.tableau.com/views/UGANDAKARAMOJASUB-COUNTYINDEPENDENTPROJECTWEEKONE/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link",
+      image: caregiver,
+      source_code_link: "https://github.com/vivianusdjpy/caregiverapp",
+    },
+      {name: "Property Management App",
+      description:
+        "NextJS app to find property, and connect with agents with clients.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "green-text-gradient",
+        },
+      ],
+      image: mawawaProperties,
+      source_code_link: "https://github.com/Mawawa-Properties/mawawa-properties",
+    },
+     {
+      name: "Dallee Image Generator",
+      description:
+        "An image generation app that uses the OpenAI api",
+      tags: [
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+          {
+          name: "NextJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: confusionMatrix,
+      source_code_link: "https://github.com/vivianusdjpy/dallee2",
     },
     {
       name: "Game Prediction ML",
@@ -227,4 +275,4 @@ import {
     },
   ];
   
-  export { services, technologies, projects };
+  export { services, technologies, experiences };
